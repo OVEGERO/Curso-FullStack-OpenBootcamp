@@ -1,7 +1,6 @@
 import time
 
 hora_actual = time.localtime()
-print("Hora actual: ", hora_actual.tm_hour, ":", hora_actual.tm_min, ":", hora_actual.tm_sec)
 if hora_actual.tm_hour >= 19:
     print("Fin de la jornada laboral")
 else:
